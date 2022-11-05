@@ -1,0 +1,13 @@
+.form {
+  width: 700px;
+  background: linear-gradient(135deg, rgb(112, 128, 144) 21px,
+  rgb(217, 236, 255) 22px,
+  rgb(217, 236, 255) 24px, transparent 24px, transparent 67px,
+  rgb(217, 236, 255) 67px,
+  rgb(217, 236, 255) 69px, transparent 69px) 0% 0% / 64px 128px,
+  linear-gradient(225deg, rgb(112, 128, 144) 21px, rgb(217, 236, 255) 22px, rgb(217, 236, 255) 24px, transparent 24px, transparent 67px, rgb(217, 236, 255) 67px, rgb(217, 236, 255) 69px, transparent 69px) 0px 64px rgb(112, 128, 144); --darkreader-inline-bgimage:linear-gradient(135deg, #576572 21px, #1e2223 22px, #1e2223 24px, rgba(0, 0, 0, 0) 24px, rgba(0, 0, 0, 0) 67px, #1e2223 67px, #1e2223 69px, rgba(0, 0, 0, 0) 69px),
+  linear-gradient(225deg, #576572 21px, #1e2223 22px, #1e2223 24px, rgba(0, 0, 0, 0) 24px, rgba(0, 0, 0, 0) 67px, #1e2223 67px, #1e2223 69px, rgba(0, 0, 0, 0) 69px);
+  --darkreader-inline-bgcolor:#576572;
+  background-size:40px 60px;
+}
+
