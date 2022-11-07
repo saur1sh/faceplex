@@ -6,6 +6,8 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Navigation from './components/Navigation/Navigation';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
+import About from './components/About/About';
+import Developers from './components/Developers/Developers';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
@@ -123,7 +125,15 @@ class App extends Component {
           : (
              route === 'signin'
              ? <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-             : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
+             :  (
+                route === 'about'
+                ? <About />
+                : (
+                   route === 'developers'
+                   ? <Developers />
+                   : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
+                  )
+                ) 
             )
         }
       </div>

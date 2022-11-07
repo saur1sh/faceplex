@@ -16,7 +16,7 @@ class Signin extends React.Component {
   onPasswordChange = (event) => {
     this.setState({signInPassword: event.target.value})
   }
-
+  
   onSubmitSignIn = () => {
     fetch('http://localhost:3000/signin', {
       method: 'post',
@@ -31,6 +31,9 @@ class Signin extends React.Component {
         if (user.id) {
           this.props.loadUser(user)
           this.props.onRouteChange('home');
+        }
+        else{
+          alert("Invalid Credentials");
         }
       })
   }

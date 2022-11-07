@@ -13,7 +13,7 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
           <nav style={{display: 'flex'}}>
             <div style={{display: 'flex', justifyContent: 'flex-end'}}>
               <p onClick={() => onRouteChange('about')} className='f4 link dim black pa3 pointer ba b--black bw2 mr3 ml3 .bg-white' style={{backgroundColor: "#C1E3ED", borderWidth: "3px",borderColor: "black", borderRadius: "30px"}}>About</p>
-              <p onClick={() => onRouteChange('deveopers')} className='f4 link dim black pa3 pointer ba b--black mr2 ' style={{backgroundColor: "#C1E3ED", borderWidth: "3px",borderColor: "black", borderRadius: "30px"}}>Developers</p>
+              <p onClick={() => onRouteChange('developers')} className='f4 link dim black pa3 pointer ba b--black mr2 ' style={{backgroundColor: "#C1E3ED", borderWidth: "3px",borderColor: "black", borderRadius: "30px"}}>Developers</p>
             </div>
             <div style={{marginLeft: 'auto' }}>
               <p onClick={() => onRouteChange('signin')} className='f4 link dim black pa3 pointer ba b--black bw2 mr3' style={{backgroundColor: "#C1E3ED", borderWidth: "3px",borderColor: "black", borderRadius: "30px"}}>Sign In</p>
