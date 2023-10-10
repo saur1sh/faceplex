@@ -13,7 +13,7 @@ class Developers extends React.Component {
         return (
             <div>
                 <p style={head}> <mark style={m}> Developers </mark> </p>
-                <Card id={true} name="Saurish Sharma" email="isaurishsharma@gmail.com"/>
+                <Card id={true} name="Saurish Sharma" email="saurishsharma@protonmail.com"/>
                 <Card id={false} name="Raghav Phophaliya" email="raghaphophaliya@gmail.com"/>
             </div>
         );
